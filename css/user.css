@@ -1,0 +1,109 @@
+/* Styles for Login/Register Pages */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form Container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    border: 2px solid #FFA500;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #FF8C00;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+/* Buttons */
+input[type="submit"],
+button {
+    width: 100%;
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #FFA500;
+}
+
+/* Radio Buttons */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FF8C00;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input[type="submit"],
+    button {
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    select,
+    input[type="date"] {
+        padding: 12px;
+        font-size: 16px;
+    }
+}
