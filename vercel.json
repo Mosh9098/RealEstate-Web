@@ -11,6 +11,11 @@
         "src": "/(.*)",
         "dest": "/index.php"
       }
-    ]
+    ],
+    "env": {
+      "MY_ENV_VAR": "value"
+    },
+    "public": "./public",
+    "regions": ["all"]
   }
   
